@@ -1,0 +1,76 @@
+<!-- Register Page, Register HTML -->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Norican|Oswald" rel="stylesheet">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/images/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Sign up for City of Charlotte</title>
+  </head>
+  <body>
+
+    <!-- Page Header -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        <h1 class="navheader">City of Charlotte</h1>
+         <img class="mainlogo" src="images/crownlogo.png"/>
+        </div>
+      </div>
+    </nav>
+
+<!-- Container for Forms -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-3"></div>
+
+    <div class="col-s-12 col-md-6 formArea">
+      <form id="myForm">
+      	<div class="form-group">
+      	<label for="name">Username: <span>*</span></label>
+      		<input id="name" name="name" type="text" placeholder="Username" class="form-control input-md" required="" data-error="Please enter your username.">
+      		<div class="help-block with-errors"></div>
+      	</div>
+        <div class="form-group">
+          <label for="password">Password <span>*</span></label>
+          <input id="password" name="password" type="password" placeholder="" class="form-control input-md" required="">
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password <span>*</span></label>
+          <input id="confirmPassword" name="confirmPassword" type="password" placeholder="" data-match="#password" class="form-control input-md" required="" data-error="Sorry, your passwords do not match.">
+            <div class="help-block with-errors"></div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email <span>*</span></label>
+          <input id="email" name="email" type="email" placeholder="johndoe@gmail.com" class="form-control input-md" required="" data-error="Please enter a valid email address.">
+          <div class="help-block with-errors"></div>
+        </div>
+        <div class="form-group">
+       	  <label for="email">Keywords <span>*</span></label>
+       	  <input id="email" name="email" type="email" placeholder="keyword placeholder" class="form-control input-md" required="" data-error="Please enter a valid email address.">
+          <div class="help-block with-errors"></div>
+         <br>
+           <button type="submit" class="btn-lg btn-block btn-primary" id="submitBtn">Submit</button>
+          <button type="button" class="btn-lg btn-block btn-primary clear" id="clearBtn">Clear</button>
+          <br><br>
+      </form>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+</div>
+
+  </body>
+  </html>

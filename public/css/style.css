@@ -1,0 +1,137 @@
+ /* Landing Page CSS */
+
+ .navbar-default {
+            min-height: 125px;
+            background-color: black;
+            opacity: 0.85;
+}
+
+
+body {
+    background-image: url("http://wallpaper-gallery.net/images/wallpaper-charlotte-nc/wallpaper-charlotte-nc-6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navheader {
+    position: relative;
+    left: 590px;
+    font-family: 'Norican', cursive;
+    color: white;
+}
+
+.mainlogo {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 670px;
+}
+
+
+.jumbotron {
+    position: relative;
+    top: 25px;
+    left: 235px;
+    font-family: 'Oswald', sans-serif;
+    width: 50%;
+}
+
+#loginbtn {
+    background-color: #333;
+    border: solid 1px black;
+    font-family: 'Oswald', sans-serif;
+}
+
+#loginbtn:hover {
+        background-color: white;
+        color: #333;
+}
+
+#registerbtn {
+    background-color: #333;
+    border: solid 1px black;
+    font-family: 'Oswald', sans-serif;
+}
+
+#registerbtn:hover {
+        background-color: white;
+        color: #333;
+}
+
+#keywordbtn {
+    background-color: #333;
+    border: solid 1px black;
+    font-family: 'Oswald', sans-serif;
+}
+
+#keywordbtn:hover {
+        background-color: white;
+        color: #333;
+}
+
+
+/* Register Page CSS */
+
+label {
+          color: white;
+          text-shadow: 2px 2px 4px #333;
+}
+input{
+          margin-bottom: 10px;
+}
+.centered {
+          border-radius: 7px;
+}
+.header {
+          display: flex;
+          align-items: center;
+          justify-content: center
+}
+#topImage {
+          margin-top: 10px;
+          border-radius: 7px;
+          box-shadow: 5px 5px 4px #333;
+}
+
+/*Error validation messages*/
+.list-unstyled li {
+        background-color: black;
+        color:white;
+}
+
+.formArea{
+        background-color:rgba(0,0,0, 0.6);
+        border-radius: 10px;
+        padding-top: 10px;
+        margin-top: 20px;
+}
+
+#submitBtn {
+    background-color: #333;
+    border: solid 1px black;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#submitBtn:hover {
+    background-color: white;
+    color: #333;
+}
+
+#clearBtn {
+   background-color: #333;
+   border: solid 1px black;
+   font-family: 'Oswald', sans-serif;
+}
+
+#clearBtn:hover {
+   background-color: white;
+   color: #333;
+}
+
+/* Redirect Page CSS */
+
+/*Coming Soon */
+
+/* Profile Page CSS */
+
